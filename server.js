@@ -31,3 +31,11 @@ app.delete('/api/notes/:id', (req, res) => {
   fs.writeFileSync(path.join(__dirname, 'db.json'), JSON.stringify(updatedNotes));
   res.json({ message: 'Note deleted' });
 });
+
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/notes.html'));
+  });
+  
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/index.html'));
+  });
