@@ -7,3 +7,10 @@ This is my Note Taker application. The code for the front-end of the application
 ## Installation
 
 In the terminal, you have to first type the command 'npm i'. This command installs all the necessary packages for this application. After all the packages have downloaded, you have to type the command 'node server.js'. If the server is running successfully, you will see a message in the terminal: "App listening at 'http://localhost:3001' ".
+
+## Screenshots
+
+#### Run 'node server.js' command to start the application:
+
+![screenshot](/Screenshots/server.png)
+
