@@ -14,3 +14,22 @@ In the terminal, you have to first type the command 'npm i'. This command instal
 
 ![screenshot](/Screenshots/server.png)
 
+#### This page is what appears when my application starts:
+
+![screenshot](/Screenshots/homepage.png)
+
+#### Once you click 'Get Started', this is what will appear. In the top right-hand corner, you can press the '+' symbol, to start a new note:
+
+![screenshot](/Screenshots/nextpage.png)
+
+#### Once you have created a note, you click the save icon in the top right-hand corner, so that the note will save and display on the left-hand side along with other saved notes:
+
+![screenshot](/Screenshots/creatingnote.png)
+
+#### Once notes are created, the following screenshot shows that the stored notes with unique IDs will appear in a JSON file:
+
+![screenshot](/Screenshots/dbjson.png)
+
+## Link
+
+[Heroku](https://expressapplication-45e4e33a488c.herokuapp.com/)
