@@ -33,12 +33,12 @@ app.delete('/api/notes/:id', (req, res) => {
 });
 
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '.public/notes.html'));
-  });
-  
-  app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '.public/index.html'));
-  });
+  res.sendFile(path.join(__dirname, 'public/notes.html'));
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/index.html'));
+});
 
   app.listen(PORT, () => {
     console.log(`The server is now listening to http://localhost:${PORT}`);
